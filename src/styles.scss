@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import './styles/forms';
+
+
+.type{
+	
+	 &-apartment{
+    color : #a72da3 !Important;
+	 }
+
+	 &-condo{
+    color : #d68000 !Important;
+
+	 }
+   
+   &-house{
+   color : #bf1818 !Important;
+	 
+	 }
+
+}
+
+
+ btn.btn-bwm-search {
+    border-color: #F44336;
+    color: #F44336;
+
+
+    &:hover, &:focus, &:active {
+      background-color: transparent;
+      border-color: #F44336 !important;
+      color: #F44336 !important;
+      box-shadow: none;
+    }
+
+    &:disabled{
+   cursor : auto;
+   background-color: transparent;
+   color:  #FF0000;
+
+    }
+  }

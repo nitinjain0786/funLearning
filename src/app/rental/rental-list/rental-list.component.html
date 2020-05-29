@@ -1,9 +1,17 @@
  <section id="rentalListing">
     <h1 class="title">Your Home All Around the World</h1>
     <div class="row">
-      <div class='col-md-3 col-xs-6' *ngFor="let rental of rentals">
+      <div class='col-md-3 col-xs-12' *ngFor="let rental of rentals">
       <bwm-rental-list-item [rental] ="rental"></bwm-rental-list-item>
+
+  <!--     <div *bwmNgIf="rental.category === 'house'"> <h1>I am a house.</h1> </div> -->
+
       </div>
+
+     <!--  <div  *bwmNgFor="let num of [1,2,3]"  class='col-md-3 col-xs-12'>
+        
+                {{num}}
+      </div> -->
      
   </div>
   </section>

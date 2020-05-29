@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# server 
+/server/config/dev.js
+
 # compiled output
 /dist
 /tmp
@@ -44,3 +47,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+/server/config/dev.js
