@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input} from '@angular/core';
 
 
 @Component({
@@ -8,6 +8,7 @@ styleUrls : ["./header.component.scss"]
 
 })
 export class HeaderComponent{
-
-
+   @Input('isAuthenticated')  isAuthenticated =false;
+   @Input('username')  username ='';
+   @Input('logout') logout = () =>{};
 }
